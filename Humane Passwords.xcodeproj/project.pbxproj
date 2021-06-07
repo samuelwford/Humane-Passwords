@@ -12,6 +12,9 @@
 		328F4EDF266D2FDC002FBAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328F4EDE266D2FDC002FBAAD /* Assets.xcassets */; };
 		328F4EE2266D2FDC002FBAAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328F4EE1266D2FDC002FBAAD /* Preview Assets.xcassets */; };
 		328F4EEB266E4E51002FBAAD /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F4EEA266E4E51002FBAAD /* Generator.swift */; };
+		329D90B9266E57AA00468B67 /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D90B8266E57AA00468B67 /* PasswordModel.swift */; };
+		329D90BB266E59DA00468B67 /* LabeledTickMarksSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D90BA266E59DA00468B67 /* LabeledTickMarksSliderView.swift */; };
+		329D90BD266E5AC800468B67 /* PasswordLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D90BC266E5AC800468B67 /* PasswordLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		328F4EE3266D2FDC002FBAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328F4EE4266D2FDC002FBAAD /* Humane_Passwords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Humane_Passwords.entitlements; sourceTree = "<group>"; };
 		328F4EEA266E4E51002FBAAD /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		329D90B8266E57AA00468B67 /* PasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModel.swift; sourceTree = "<group>"; };
+		329D90BA266E59DA00468B67 /* LabeledTickMarksSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTickMarksSliderView.swift; sourceTree = "<group>"; };
+		329D90BC266E5AC800468B67 /* PasswordLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				328F4EDA266D2FDB002FBAAD /* Humane_PasswordsApp.swift */,
-				328F4EDC266D2FDB002FBAAD /* ContentView.swift */,
-				328F4EEA266E4E51002FBAAD /* Generator.swift */,
+				329D90BE266E5C1400468B67 /* Views */,
+				329D90BF266E5C1C00468B67 /* Models */,
+				329D90C0266E5C2600468B67 /* Utilities */,
 				328F4EDE266D2FDC002FBAAD /* Assets.xcassets */,
 				328F4EE3266D2FDC002FBAAD /* Info.plist */,
 				328F4EE4266D2FDC002FBAAD /* Humane_Passwords.entitlements */,
@@ -72,6 +79,32 @@
 				328F4EE1266D2FDC002FBAAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		329D90BE266E5C1400468B67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				328F4EDC266D2FDB002FBAAD /* ContentView.swift */,
+				329D90BC266E5AC800468B67 /* PasswordLabel.swift */,
+				329D90BA266E59DA00468B67 /* LabeledTickMarksSliderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		329D90BF266E5C1C00468B67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				329D90B8266E57AA00468B67 /* PasswordModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		329D90C0266E5C2600468B67 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				328F4EEA266E4E51002FBAAD /* Generator.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329D90BB266E59DA00468B67 /* LabeledTickMarksSliderView.swift in Sources */,
 				328F4EEB266E4E51002FBAAD /* Generator.swift in Sources */,
 				328F4EDD266D2FDB002FBAAD /* ContentView.swift in Sources */,
+				329D90B9266E57AA00468B67 /* PasswordModel.swift in Sources */,
 				328F4EDB266D2FDB002FBAAD /* Humane_PasswordsApp.swift in Sources */,
+				329D90BD266E5AC800468B67 /* PasswordLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
