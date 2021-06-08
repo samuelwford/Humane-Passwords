@@ -48,6 +48,7 @@
 		328F4ECE266D2FDB002FBAAD = {
 			isa = PBXGroup;
 			children = (
+				329D90C3266EA6EE00468B67 /* README.md */,
 				328F4ED9266D2FDB002FBAAD /* Humane Passwords */,
 				328F4ED8266D2FDB002FBAAD /* Products */,
 			);
