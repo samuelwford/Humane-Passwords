@@ -31,7 +31,7 @@ struct ContentView: View {
             model.newPassword()
         }
         .padding(20)
-        .frame(width: 340)
+        .frame(width: 340, height: 200)
     }
 }
 
